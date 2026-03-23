@@ -44,6 +44,6 @@ kblctl flash Kanzi-SNR-patched.bin
 ## Notes
 
 - Confirmed on SNR v1.07 and UDT v1.14
-- CRC fix is built into the script but the STM32 hardware CRC algorithm requires `kblcrcfix` for a correct result — always run it before flashing
-- If you brick the SNR the bootloader (KanziBoot) is hard to kill — you can always re-enter bootloader mode and reflash
-- If you brick the UDT the button is hidden under the bottom piece of the enclosure — it's reachable without major damage
+- CRC fix is built into the script but the STM32 hardware CRC algorithm requires `kblcrcfix` for a correct result always run it before flashing
+- If you brick the SNR the bootloader (KanziBoot) is hard to kill, you can always re-enter bootloader mode and reflash
+- If you brick the UDT the button is hidden under the bottom piece of the enclosure, it's reachable without major damage
